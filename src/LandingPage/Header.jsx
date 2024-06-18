@@ -2,7 +2,7 @@ import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
-    <header className="bg-gray-800 text-white p-4 fixed w-full z-10">
+    <header className="bg-gray-800 text-white p-4 fixed w-full z-50 top-0">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-xl font-bold">GuardIA</div>
         <nav>

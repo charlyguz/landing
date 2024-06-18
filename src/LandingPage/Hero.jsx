@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section id="hero" className="h-screen bg-cover bg-center flex flex-col items-center justify-center" style={{ backgroundImage: "url('/assets/images/gun.png')" }}>
+    <section id="hero" className="h-screen bg-cover bg-center flex flex-col items-center justify-center mt-16" style={{ backgroundImage: "url('/assets/images/gun.png')" }}>
       <motion.div 
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
