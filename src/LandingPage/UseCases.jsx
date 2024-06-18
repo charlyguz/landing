@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const UseCases = () => {
   return (
-    <section id="usecases" className="py-20 text-xl">
+    <section id="usecases" className="py-20 text-white">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -11,7 +11,7 @@ const UseCases = () => {
           transition={{ duration: 1 }}
         >
           <h2 className="text-3xl font-bold text-center mb-8">Casos de Uso</h2>
-          <div className="space-y-8">
+          <div className="space-y-8 text-center">
             <div>
               <h3 className="text-xl font-bold">Empresas de Alta Peligrosidad</h3>
               <p>
@@ -30,7 +30,6 @@ const UseCases = () => {
                 Integración con sistemas de vigilancia ya existentes, como el C5 en la Ciudad de México. Implementación de nuevos sistemas en áreas de alta afluencia para mejorar la seguridad pública. Detección automática de choques, delitos, y situaciones de emergencia, permitiendo una respuesta más rápida y efectiva.
               </p>
             </div>
-            
           </div>
         </motion.div>
       </div>

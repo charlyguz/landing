@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const Features = () => {
   return (
-    <section id="features" className="py-20">
+    <section id="features" className="py-20 text-white">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -12,7 +12,7 @@ const Features = () => {
         >
           <h2 className="text-3xl font-bold text-center mb-8">Características del Modelo</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-gray-800 text-white p-6 shadow-lg rounded-lg">
+            <div className="bg-gray-800 p-6 shadow-lg rounded-lg">
               <h3 className="text-xl font-bold mb-4">Visión Artificial</h3>
               <ul className="list-disc ml-4">
                 <li>Detectar armas</li>
@@ -27,9 +27,9 @@ const Features = () => {
                 <li>Detectar actos ilegales</li>
               </ul>
             </div>
-            <div className="bg-gray-800 text-white text-xl p-6 shadow-lg rounded-lg">
+            <div className="bg-gray-800 p-6 shadow-lg rounded-lg">
               <h3 className="text-xl font-bold mb-4">Audio con Inteligencia Artificial</h3>
-              <ul className="list-disc ml-4 ">
+              <ul className="list-disc ml-4">
                 <li>Detectar palabras o frases típicas en asaltos</li>
                 <li>Prever el inicio de una riña mediante el análisis de palabras y el tono de las discusiones</li>
               </ul>
